@@ -1,7 +1,7 @@
 [TYPESCRIPT__BADGE]: https://img.shields.io/badge/typescript-D4FAFF?style=for-the-badge&logo=typescript
 [ANGULAR__BADGE]: https://img.shields.io/badge/Angular-red?style=for-the-badge&logo=angular
 
-<h1 align="center" id="portuguese">Bem-Vindo ao Angular-Blog 👋</h1>
+<h1 align="center" id="portuguese">Bem-Vindo ao DEV TECH Blog 👋</h1>
 
 
 <p>
