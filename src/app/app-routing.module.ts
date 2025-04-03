@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { ContentComponent } from './pages/content/content.component';
 import { HomeComponent } from './pages/home/home.component';
 import { QuizzpageComponent } from './pages/quizzpage/quizzpage.component';
+import { ContribuaPageComponent } from './pages/contribua-page/contribua-page.component';
 
 
 const routes: Routes = [
@@ -18,7 +19,11 @@ const routes: Routes = [
     //mesclando: add
     path:'quizz', 
     component:QuizzpageComponent 
-  }
+  },
+  {
+    path:'contribua',
+    component:ContribuaPageComponent
+  },
 ];
 
 @NgModule({
