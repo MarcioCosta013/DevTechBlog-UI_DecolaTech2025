@@ -1,0 +1,85 @@
+{
+  "title": "Qual stack de programação mais combina com você?",
+  "questions": [
+    {
+      "id": 1,
+      "question": "O que mais te atrai na programação?",
+      "options": [
+        { "id": 1, "name": "Criar interfaces bonitas e interativas", "alias": "Front-end" },
+        { "id": 2, "name": "Lidar com lógica e banco de dados", "alias": "Back-end" },
+        { "id": 3, "name": "Construir aplicativos para celulares", "alias": "Mobile" },
+        { "id": 4, "name": "Automatizar infraestrutura e gerenciar servidores", "alias": "DevOps" },
+        { "id": 5, "name": "Criar projetos completos, do banco de dados à interface", "alias": "Fullstack" },
+        { "id": 6, "name": "Analisar e interpretar grandes volumes de dados", "alias": "Data Science" },
+        { "id": 7, "name": "Criar sistemas distribuídos e escaláveis", "alias": "Cloud" },
+        { "id": 8, "name": "Construir sistemas de inteligência artificial", "alias": "Machine Learning" }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "Qual dessas tecnologias você usaria primeiro?",
+      "options": [
+        { "id": 1, "name": "React ou Vue.js", "alias": "Front-end" },
+        { "id": 2, "name": "Node.js ou Spring Boot", "alias": "Back-end" },
+        { "id": 3, "name": "Flutter ou React Native", "alias": "Mobile" },
+        { "id": 4, "name": "Docker e Kubernetes", "alias": "DevOps" },
+        { "id": 5, "name": "MongoDB e Express.js junto com React", "alias": "Fullstack" },
+        { "id": 6, "name": "Python com Pandas e NumPy", "alias": "Data Science" },
+        { "id": 7, "name": "AWS, Azure ou Google Cloud", "alias": "Cloud" },
+        { "id": 8, "name": "TensorFlow e PyTorch", "alias": "Machine Learning" }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "O que te deixa mais animado ao programar?",
+      "options": [
+        { "id": 1, "name": "Criar animações e efeitos visuais", "alias": "Front-end" },
+        { "id": 2, "name": "Otimizar a performance de sistemas", "alias": "Back-end" },
+        { "id": 3, "name": "Criar um app inovador", "alias": "Mobile" },
+        { "id": 4, "name": "Gerenciar infraestrutura e automação", "alias": "DevOps" },
+        { "id": 5, "name": "Trabalhar em todas as partes de um projeto", "alias": "Fullstack" },
+        { "id": 6, "name": "Desenvolver modelos preditivos", "alias": "Data Science" },
+        { "id": 7, "name": "Criar arquiteturas escaláveis", "alias": "Cloud" },
+        { "id": 8, "name": "Construir redes neurais", "alias": "Machine Learning" }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "Se tivesse que escolher um ambiente de trabalho ideal, qual seria?",
+      "options": [
+        { "id": 1, "name": "Trabalhando com designers para criar interfaces incríveis", "alias": "Front-end" },
+        { "id": 2, "name": "Criando APIs robustas e escaláveis", "alias": "Back-end" },
+        { "id": 3, "name": "Desenvolvendo apps que funcionam em qualquer celular", "alias": "Mobile" },
+        { "id": 4, "name": "Automatizando deploys e CI/CD", "alias": "DevOps" },
+        { "id": 5, "name": "Desenvolvendo tanto o front-end quanto o back-end", "alias": "Fullstack" },
+        { "id": 6, "name": "Analisando dados para extrair insights valiosos", "alias": "Data Science" },
+        { "id": 7, "name": "Gerenciando sistemas em nuvem", "alias": "Cloud" },
+        { "id": 8, "name": "Criando modelos de IA", "alias": "Machine Learning" }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "Se tivesse que escolher um lema para programar, qual seria?",
+      "options": [
+        { "id": 1, "name": "O usuário precisa amar o design!", "alias": "Front-end" },
+        { "id": 2, "name": "Código bem escrito vale mais que mil palavras", "alias": "Back-end" },
+        { "id": 3, "name": "Mobilidade é o futuro!", "alias": "Mobile" },
+        { "id": 4, "name": "Infraestrutura eficiente é a base do sucesso!", "alias": "DevOps" },
+        { "id": 5, "name": "Ser um programador completo é o objetivo!", "alias": "Fullstack" },
+        { "id": 6, "name": "Os dados não mentem", "alias": "Data Science" },
+        { "id": 7, "name": "O futuro está na nuvem!", "alias": "Cloud" },
+        { "id": 8, "name": "A IA vai transformar o mundo!", "alias": "Machine Learning" }
+      ]
+    }
+  ],
+  "results": {
+    "Front-end": "Você se encaixa no Front-end!  Seu foco está em criar interfaces bonitas, dinâmicas e interativas. Você provavelmente adora JavaScript, CSS e frameworks como React ou Vue.js.",
+    "Back-end": "Você é um Back-end Developer!  Seu talento está em construir sistemas robustos, APIs bem estruturadas e gerenciar banco de dados. Você deve gostar de linguagens como Java, Python ou Node.js.",
+    "Mobile": "Você é um Mobile Developer!  Seu interesse está em criar aplicativos incríveis para smartphones. Você pode trabalhar com Flutter, React Native ou Kotlin para Android e Swift para iOS.",
+    "DevOps": "Você tem perfil de DevOps Engineer  Sua paixão é garantir que a infraestrutura e os processos de deploy sejam eficientes. Ferramentas como Docker, Kubernetes e CI/CD são essenciais para você.",
+    "Fullstack": "Você é um Fullstack Developer! Você gosta de trabalhar tanto no front-end quanto no back-end, usando tecnologias como React, Node.js, Django e bancos de dados SQL ou NoSQL.",
+    "Data Science": "Você tem perfil de Data Scientist  Você gosta de analisar dados, criar modelos preditivos e usar inteligência artificial para extrair insights. Python e bibliotecas como Pandas e TensorFlow são seus aliados.",
+    "Cloud": "Você é um Cloud Engineer! Você gosta de trabalhar com infraestrutura escalável, servidores e plataformas de nuvem como AWS, Azure e Google Cloud.",
+    "Machine Learning": "Você tem perfil de Machine Learning Engineer! Você adora redes neurais, aprendizado profundo e inteligência artificial, trabalhando com frameworks como TensorFlow e PyTorch."
+  }
+}
