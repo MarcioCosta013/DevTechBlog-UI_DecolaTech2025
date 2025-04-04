@@ -4,19 +4,19 @@
       <label for="name">Nome</label>
       <input id="name" formControlName="name" type="text" placeholder="Digite seu nome">
   
-      <label for="githubLink">Link do GitHub</label>
+      <label for="githubLink">Link do Seu GitHub</label>
       <input id="githubLink" formControlName="githubLink" type="url" placeholder="https://github.com/seu-repo">
   
       <label for="title">Título</label>
       <input id="title" formControlName="title" type="text" placeholder="Título do projeto">
   
-      <label for="description">Descrição</label>
+      <label for="description">Descrição do Site/Ferramenta</label>
       <textarea id="description" formControlName="description" placeholder="Descreva o projeto"></textarea>
   
       <label for="siteLink">Link do Site</label>
       <input id="siteLink" formControlName="siteLink" type="url" placeholder="https://meusite.com">
   
-      <label for="stack">Stack do Site</label>
+      <label for="stack">Classificação do Site</label>
       <select id="stack" formControlName="stack">
         <option value="" disabled selected>Selecione uma opção</option>
         <option *ngFor="let stack of stackOptions" [value]="stack">{{ stack }}</option>

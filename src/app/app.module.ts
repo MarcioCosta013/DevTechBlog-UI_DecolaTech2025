@@ -17,6 +17,8 @@ import { ContribuaFormComponent } from './components/contribua-form/contribua-fo
 import { ContribuaPageComponent } from './pages/contribua-page/contribua-page.component';
 import { HomeComponent } from './pages/home/home.component';
 import { QuizzpageComponent } from './pages/quizzpage/quizzpage.component';
+import { ListuteisComponent } from './pages/listuteis/listuteis.component';
+import { SobreComponent } from './pages/sobre/sobre.component';
 
 
 @NgModule({
@@ -32,7 +34,9 @@ import { QuizzpageComponent } from './pages/quizzpage/quizzpage.component';
     QuizzpageComponent,
     FooterComponent,
     ContribuaFormComponent,
-    ContribuaPageComponent
+    ContribuaPageComponent,
+    ListuteisComponent,
+    SobreComponent
   ],
   imports: [
     BrowserModule,

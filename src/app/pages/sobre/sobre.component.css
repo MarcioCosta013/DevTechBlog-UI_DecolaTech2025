@@ -1,0 +1,17 @@
+.conteiner__sobre{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+    padding-top: 5%;
+
+}
+
+h1, p {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    padding-bottom: 5%;
+}

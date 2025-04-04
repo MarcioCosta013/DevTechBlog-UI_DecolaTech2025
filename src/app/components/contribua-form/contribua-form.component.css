@@ -1,55 +1,49 @@
 .form-container {
-  max-width: 400px;
+  max-width: 80%;
   margin: auto;
-  padding: 20px;
-  background: #f9f9f9;
   border-radius: 8px;
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
   
-  h2 {
-    text-align: center;
-    margin-bottom: 20px;
-  }
 
   form {
     display: flex;
     flex-direction: column;
     
     label {
-      margin-top: 10px;
+      margin-top: 20px;
       font-weight: bold;
     }
 
     input, textarea, select {
       width: 100%;
       padding: 8px;
-      margin-top: 5px;
-      border: 1px solid #ccc;
+      margin-top: 20px;
+      border: 1px solid #5cbf2a;
       border-radius: 4px;
     }
 
     textarea {
       resize: vertical;
-      min-height: 80px;
+      min-height: 200px;
     }
 
     button {
       margin-top: 15px;
       padding: 10px;
-      background: #007bff;
-      color: white;
+      background: #06f06f;
+      color: black;
       border: none;
       border-radius: 4px;
       cursor: pointer;
       transition: background 0.3s;
 
       &:disabled {
-        background: #ccc;
+        background: #c9f1b4;
         cursor: not-allowed;
       }
 
       &:hover:not(:disabled) {
-        background: #0056b3;
+        background: #5cbf2a;
       }
     }
   }

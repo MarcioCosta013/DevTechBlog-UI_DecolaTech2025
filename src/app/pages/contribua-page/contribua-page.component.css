@@ -1,5 +1,24 @@
-.page-container {
-  max-width: 800px;
+.page-container{
+  display: flex;
+  flex-direction: column;
+  width: 90%;
   margin: auto;
-  text-align: center;
+  margin-top: 20px;
+  
+  
+  h1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 5%;
+    
+  }
+  
+  p{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 1% ;
+  }
 }
+

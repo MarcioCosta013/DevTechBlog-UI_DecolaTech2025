@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { FormBuilder, FormGroup, Validators } from '@angular/forms';
+import { FormBuilder, FormGroup, Validators } from '@angular/forms'; //Validators: Fornece regras de validação para os campos do formulário (como obrigatoriedade e padrões).
 
 @Component({
   selector: 'app-contribua-form',
@@ -7,11 +7,12 @@ import { FormBuilder, FormGroup, Validators } from '@angular/forms';
   styleUrls: ['./contribua-form.component.css']
 })
 export class ContribuaFormComponent {
-  projectForm: FormGroup;
+
+  projectForm: FormGroup; //A variável projectForm armazenará o formulário e seus campos.
 
   stackOptions = ['Fullstack', 'Ferramentas Dev', 'Frontend', 'Backend', 'DevOps'];
 
-  constructor(private fb: FormBuilder) {
+  constructor(private fb: FormBuilder) { //O FormBuilder é injetado no construtor (private fb: FormBuilder), permitindo criar e gerenciar o formulário de forma eficiente.
     this.projectForm = this.fb.group({
       name: ['', Validators.required],
       githubLink: ['', [Validators.required, Validators.pattern('https?://.+')]],

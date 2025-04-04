@@ -4,6 +4,8 @@ import { ContentComponent } from './pages/content/content.component';
 import { HomeComponent } from './pages/home/home.component';
 import { QuizzpageComponent } from './pages/quizzpage/quizzpage.component';
 import { ContribuaPageComponent } from './pages/contribua-page/contribua-page.component';
+import { ListuteisComponent } from './pages/listuteis/listuteis.component';
+import { SobreComponent } from './pages/sobre/sobre.component';
 
 
 const routes: Routes = [
@@ -24,6 +26,14 @@ const routes: Routes = [
     path:'contribua',
     component:ContribuaPageComponent
   },
+  {
+    path:'sitesuteis',
+    component:ListuteisComponent
+  },
+  {
+    path:'sobre',
+    component:SobreComponent
+  }
 ];
 
 @NgModule({
