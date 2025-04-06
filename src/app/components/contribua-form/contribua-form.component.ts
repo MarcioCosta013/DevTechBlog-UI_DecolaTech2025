@@ -15,6 +15,7 @@ export class ContribuaFormComponent {
   constructor(private fb: FormBuilder) { //O FormBuilder é injetado no construtor (private fb: FormBuilder), permitindo criar e gerenciar o formulário de forma eficiente.
     this.projectForm = this.fb.group({
       name: ['', Validators.required],
+      email: ['', Validators.required],
       githubLink: ['', [Validators.required, Validators.pattern('https?://.+')]],
       title: ['', Validators.required],
       description: ['', Validators.required],
