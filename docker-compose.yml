@@ -6,6 +6,7 @@ services:
       - '4200:4200'
     volumes:
       - .:/dev-tech-blog-ui
+      - /dev-tech-blog-ui/node_modules
     command: ng serve --host 0.0.0.0
     stdin_open: true
     networks:
