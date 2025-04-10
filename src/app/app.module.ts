@@ -19,6 +19,8 @@ import { HomeComponent } from './pages/home/home.component';
 import { QuizzpageComponent } from './pages/quizzpage/quizzpage.component';
 import { ListuteisComponent } from './pages/listuteis/listuteis.component';
 import { SobreComponent } from './pages/sobre/sobre.component';
+import { ContribuidorService } from './service/contribuidor.service';
+import { HttpClientModule } from '@angular/common/http';
 
 
 @NgModule({
@@ -42,9 +44,10 @@ import { SobreComponent } from './pages/sobre/sobre.component';
     BrowserModule,
     AppRoutingModule,
     RouterModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    HttpClientModule
   ],
-  providers: [],
+  providers: [ContribuidorService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
