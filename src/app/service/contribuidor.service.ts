@@ -16,15 +16,15 @@ export class ContribuidorService {
 
   criarContribuidorESite(dadosForm: any) {
     const contribuidor = {
-      nome: dadosForm.name,
+      nome: dadosForm.nome,
       email: dadosForm.email,
-      linkGithub: dadosForm.githubLink
+      githubLink: dadosForm.githubLink
     };
 
     const site = {
-      titulo: dadosForm.title,
-      descricao: dadosForm.description,
-      linkSite: dadosForm.siteLink,
+      titulo: dadosForm.titulo,
+      descricao: dadosForm.descricao,
+      linkSite: dadosForm.linkSite,
       stack: dadosForm.stack
       // contribuidor: será adicionado com ID depois
     };
@@ -37,7 +37,7 @@ export class ContribuidorService {
         const contribuidorId = res.id;
         const siteComContribuidor = {
           ...site,
-          contribuidor: { id: contribuidorId } // só o id já basta se o backend estiver mapeado assim
+          contribuidor: { id: contribuidorId} // só o id já basta se o backend estiver mapeado assim
         };
         return this.http.post(`${this.apiUrlSites}/create`, siteComContribuidor);
       })

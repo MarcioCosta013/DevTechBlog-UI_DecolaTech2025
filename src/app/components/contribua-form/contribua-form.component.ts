@@ -11,25 +11,28 @@ export class ContribuaFormComponent {
 
   projectForm: FormGroup; //A variável projectForm armazenará o formulário e seus campos.
 
-  stackOptions = ['Fullstack', 'Ferramentas Dev', 'Frontend', 'Backend', 'DevOps'];
+  stackOptions = ['Fullstack', 'Frontend', 'Backend', 'DevOps','Ferramentas Dev'];
   
 
   constructor(private fb: FormBuilder, private contribuidorService: ContribuidorService) { /* O FormBuilder é injetado no construtor (private fb: FormBuilder), 
                                                                                             * permitindo criar e gerenciar o formulário de forma eficiente.
                                                                                             */
     this.projectForm = this.fb.group({
-      name: ['', Validators.required],
+      nome: ['', Validators.required],
       email: ['', Validators.required],
       githubLink: ['', [Validators.required, Validators.pattern('https?://.+')]],
-      title: ['', Validators.required],
-      description: ['', Validators.required],
-      siteLink: ['', Validators.pattern('https?://.+')],
+      titulo: ['', Validators.required],
+      descricao: ['', Validators.required],
+      linkSite: ['', Validators.pattern('https?://.+')],
       stack: ['', Validators.required]
     });
   }
 
   submitForm() {
     if (this.projectForm.valid) {
+      
+      console.log("Dados que estão sendo enviados", this.projectForm.value)
+
       this.contribuidorService.criarContribuidorESite(this.projectForm.value)
         .subscribe({
           next: (res) => {
