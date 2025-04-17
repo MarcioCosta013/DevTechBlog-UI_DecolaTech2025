@@ -22,10 +22,57 @@
 
 ## Instalação
 
-```sh
-git clone https://github.com/MarcioCosta013/DecolaTech2025-angular-blog.git
-npm install
+1. Clone o repositório: `git clone https://github.com/MarcioCosta013/DecolaTech2025-angular-blog.git`
+2. Instale as dependências: `npm install`
+3. Configure o ambiente de desenvolvimento: `ng serve`
+
+## Estrutura do Projeto
+
 ```
+src/
+├── app/
+│ ├── app.component.ts # Componente principal da aplicação
+│ ├── app.module.ts # Módulo principal da aplicação
+│ ├── components/
+│ │ ├── big-card/
+│ │ │ ├── big-card.component.ts # Componente de cartão grande
+│ │ │ └── big-card.component.html # Template HTML do componente de cartão grande
+│ │ ├── contribua-form/
+│ │ │ ├── contribua-form.component.ts # Componente de formulário de contribuição
+│ │ │ └── contribua-form.component.html # HTML do componente de formulário de contribuição
+│ │ ├── footer/
+│ │ │ ├── footer.component.ts # Componente de rodapé
+│ │ │ └── footer.component.html # Template HTML do componente de rodapé
+│ │ ├── menu-bar/
+│ │ │ ├── menu-bar.component.ts # Componente de barra de menu
+│ │ │ └── menu-bar.component.html # Template HTML do componente de barra de menu
+│ │ └── ...
+│ ├── pages/
+│ │ ├── content/
+│ │ │ ├── content.component.ts # Componente de conteúdo
+│ │ │ └── content.component.html # Template HTML do componente de conteúdo
+│ │ ├── home/
+│ │ │ ├── home.component.ts # Componente de página inicial
+│ │ │ └── home.component.html # Template HTML do componente de página inicial
+│ │ ├── quizz/
+│ │ │ ├── quizz.component.ts # Componente de quiz
+│ │ │ └── quizz.component.html # Template HTML do componente de quiz
+│ │ └── ...
+│ ├── services/
+│ │ ├── contribuidor.service.ts # Serviço de contribuidores
+│ │ └── ...
+│ └── ...
+├── assets/
+│ ├── data/
+│ │ ├── dataFake.ts # Dados fake para teste
+│ │ └── quizz_questions.json # Dados de perguntas do quiz
+│ └── ...
+├── environments/
+│ ├── environment.ts # Configurações de ambiente
+│ └── environment.prod.ts # Configurações de ambiente para produção
+└── ...
+```
+
 ## 🖥  Servidor de Desenvolvimento
 
 Execute `ng serve` para iniciar um servidor de desenvolvimento. Navegue até `http://localhost:4200/`. A aplicação recarregará automaticamente se você alterar qualquer um dos arquivos de origem.
@@ -77,9 +124,56 @@ Dê uma ⭐️ se este projeto te ajudou!
 
 ## Install
 
-```sh
-git clone https://github.com/MarcioCosta013/DecolaTech2025-angular-blog.git
-npm install
+1. Clone the repository: `git clone https://github.com/MarcioCosta013/DecolaTech2025-angular-blog.git`
+2.  Install dependencies: `npm install`
+3.  Set up the development environment: `ng serve`
+
+
+## Project Structure
+
+```
+src/
+├── app/
+│ ├── app.component.ts # Main application component
+│ ├── app.module.ts # Main application module
+│ ├── components/
+│ │ ├── big-card/
+│ │ │ ├── big-card.component.ts # Large card component
+│ │ │ └── big-card.component.html # Large card component HTML template
+│ │ ├── contribua-form/
+│ │ │ ├── contribua-form.component.ts # Contribution form component
+│ │ │ └── contribua-form.component.html # Contribution form component HTML template
+│ │ ├── footer/
+│ │ │ ├── footer.component.ts # Footer component
+│ │ │ └── footer.component.html # Footer component HTML template
+│ │ ├── menu-bar/
+│ │ │ ├── menu-bar.component.ts # Menu bar component
+│ │ │ └── menu-bar.component.html # Menu bar component HTML template
+│ │ └── ...
+│ ├── pages/
+│ │ ├── content/
+│ │ │ ├── content.component.ts # Content component
+│ │ │ └── content.component.html # Content component HTML template
+│ │ ├── home/
+│ │ │ ├── home.component.ts # Home page component
+│ │ │ └── home.component.html # Home page component HTML template
+│ │ ├── quizz/
+│ │ │ ├── quizz.component.ts # Quiz component
+│ │ │ └── quizz.component.html # Quiz component HTML template
+│ │ └── ...
+│ ├── services/
+│ │ ├── contribuidor.service.ts # Contributor service
+│ │ └── ...
+│ └── ...
+├── assets/
+│ ├── data/
+│ │ ├── dataFake.ts # Fake data for testing
+│ │ └── quizz_questions.json # Quiz question data
+│ └── ...
+├── environments/
+│ ├── environment.ts # Environment configurations
+│ └── environment.prod.ts # Production environment configurations
+└── ...
 ```
 
 ## 🖥 Development Server
