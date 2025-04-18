@@ -20,12 +20,6 @@
 
 **English version**: [Click here](#english).
 
-## Instalação
-
-1. Clone o repositório: `git clone https://github.com/MarcioCosta013/DecolaTech2025-angular-blog.git`
-2. Instale as dependências: `npm install`
-3. Configure o ambiente de desenvolvimento: `ng serve`
-
 ## Estrutura do Projeto
 
 ```
@@ -72,6 +66,26 @@ src/
 │ └── environment.prod.ts # Configurações de ambiente para produção
 └── ...
 ```
+
+## Instalação
+
+1. Clone o repositório: `git clone https://github.com/MarcioCosta013/DecolaTech2025-angular-blog.git`
+2. Instale as dependências: `npm install`
+3. Configure o ambiente de desenvolvimento: `ng serve`
+
+## Instruções para usar o projeto com Docker
+
+1. Certifique-se de ter o Docker instalado e configurado em sua máquina.
+2. Clone o repositório do projeto e navegue até o diretório raiz do projeto.
+3. Execute o comando `docker build -t "meu-projeto"` . para criar a imagem do Docker.
+4. Execute o comando `docker-compose up` para iniciar o container e executar a aplicação.
+5. Acesse a aplicação em `http://localhost:4200` no seu navegador.
+
+### Observações
+
+- Certifique-se de ter o `Node.js` e o `npm` instalados em sua máquina para executar o comando `npm install`.
+- O comando docker-compose up irá iniciar o container e executar a aplicação em modo de desenvolvimento.
+- Para executar a aplicação em modo de produção, você precisará criar um novo arquivo `docker-compose.yml` com as configurações de produção e executar o comando `docker-compose up` com o arquivo de produção.
 
 ## 🖥  Servidor de Desenvolvimento
 
@@ -122,13 +136,6 @@ Dê uma ⭐️ se este projeto te ajudou!
 
 **Versão em Portuguese**: [Click aqui](#portuguese).
 
-## Install
-
-1. Clone the repository: `git clone https://github.com/MarcioCosta013/DecolaTech2025-angular-blog.git`
-2.  Install dependencies: `npm install`
-3.  Set up the development environment: `ng serve`
-
-
 ## Project Structure
 
 ```
@@ -175,6 +182,26 @@ src/
 │ └── environment.prod.ts # Production environment configurations
 └── ...
 ```
+## Install
+
+1. Clone the repository: `git clone https://github.com/MarcioCosta013/DecolaTech2025-angular-blog.git`
+2.  Install dependencies: `npm install`
+3.  Set up the development environment: `ng serve`
+
+## Instructions for Using the Project with Docker
+
+1. Make sure you have Docker installed and configured on your machine.
+2. Clone the project repository and navigate to the project's root directory.
+3. Run the command `docker build -t "my-project"` . to create the Docker image.
+4. Run the command `docker-compose up` to start the container and run the application.
+5. Access the application at `http://localhost:4200` in your browser.
+
+### Notes
+
+- Make sure you have `Node.js` and `npm` installed on your machine to run the `npm install` command.
+- The `docker-compose up` command will start the container and run the application in development mode.
+- To run the application in production mode, you will need to create a new `docker-compose.yml` file with production settings and run the `docker-compose up` command with the production file.
+
 
 ## 🖥 Development Server
 
