@@ -1,5 +1,8 @@
 [TYPESCRIPT__BADGE]: https://img.shields.io/badge/typescript-D4FAFF?style=for-the-badge&logo=typescript
 [ANGULAR__BADGE]: https://img.shields.io/badge/Angular-red?style=for-the-badge&logo=angular
+[DOCKER]: https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white
+[HTML]: https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white
+[CSS]: https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white
 
 <h1 align="center" id="portuguese">Bem-Vindo ao DEV TECH BLOG 👋</h1>
 
@@ -11,10 +14,11 @@
 
 ![angular][ANGULAR__BADGE]
 ![typescript][TYPESCRIPT__BADGE]
+![docker]
+![HTML]
+![CSS]
 
 > Um Blog feito em Angular como um projeto do Bootcamp DecolaTech 2025 da Avanade + DIO.
-
-#### 🏠 [Homepage](https://github.com/MarcioCosta013/DecolaTech2025-angular-blog)
 
 #### 🔗 [Visualizar site](https://decola-tech2025-angular-blog.vercel.app)
 
@@ -127,10 +131,11 @@ Dê uma ⭐️ se este projeto te ajudou!
 
 ![angular][ANGULAR__BADGE]
 ![typescript][TYPESCRIPT__BADGE]
+![docker]
+![HTML]
+![CSS]
 
 > A blog made with Angular as a project from the DecolaTech 2025 Bootcamp by Avanade + DIO.
-
-#### 🏠 [Homepage](https://github.com/MarcioCosta013/DecolaTech2025-angular-blog)
 
 #### 🔗 [View site](https://decola-tech2025-angular-blog.vercel.app)
 
